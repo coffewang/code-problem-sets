@@ -1,13 +1,3 @@
-USE [RecruitingScenario]
-GO
-
-/****** Object:  Table [dbo].[Orders all v3]    Script Date: 11/10/2015 12:52:58 PM ******/
-SET ANSI_NULLS ON
-GO
-
-SET QUOTED_IDENTIFIER ON
-GO
-
 CREATE TABLE [dbo].[Orders all v3](
 	[Order Number] [int] IDENTITY(1,1) NOT NULL,
 	[Order Amount US Dollars] [money] NULL,
@@ -22,7 +12,5 @@ PRIMARY KEY CLUSTERED
 	[Order Number] ASC
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON)
 )
-
-GO
 
 

@@ -1,13 +1,3 @@
-USE [RecruitingScenario]
-GO
-
-/****** Object:  Table [dbo].[Order items all v3]    Script Date: 11/10/2015 12:52:51 PM ******/
-SET ANSI_NULLS ON
-GO
-
-SET QUOTED_IDENTIFIER ON
-GO
-
 CREATE TABLE [dbo].[Order items all v3](
 	[Order Item Number] [int] IDENTITY(1,1) NOT NULL,
 	[Parent Order Number] [int] NULL,
