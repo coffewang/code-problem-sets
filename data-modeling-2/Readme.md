@@ -34,9 +34,9 @@ What KPIs would you recommend for the client?
 What data model would you recommend for the client? Describe both the model selected and the reasons for choosing this model.
  
 ##Implement the data model
-Write the SQL statements to generate the data model you are recommending along with SQL statements to populate the necessary tables.
+Write the SQL statements to generate tables you are recommending.
+
+Write SQL statements to populate your tables.
  
 ##Solve the business problem
-Write queries from your data model to be used by the analytics team to identify top performers by volume and profitability.
- 
-Write SQL statements to create the tables described in question 1.
+Write SQL statements to be used by the analytics team to identify top performers by volume and profitability.
