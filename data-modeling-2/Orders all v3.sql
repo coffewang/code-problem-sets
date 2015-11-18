@@ -7,6 +7,7 @@ CREATE TABLE [dbo].[Orders all v3](
 	[Customer City] [nchar](100) NULL,
 	[Customer State] [nchar](30) NULL,
 	[Customer Zip] [nchar](20) NULL,
+	[Employee Number] [int] NOT NULL
 PRIMARY KEY CLUSTERED 
 (
 	[Order Number] ASC
