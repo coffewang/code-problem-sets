@@ -38,6 +38,7 @@ FROM Goals
 			,CorpValues.[Unit]
 			,CorpValues.[GeoID]
 			,CorpValues.[Name]
+			,CorpValues.[Value]
 			,CorpValues.[Tagging]
 			,CorpValues.[Document]
 			,CorpValues.[Priority]
@@ -63,6 +64,7 @@ FROM Goals
 					,[TaggingID] AS [Tagging]
 					,[DocumentID] AS [Document]
 					,[Priority] AS [Priority]
+					,[Value] AS [Value]
 				FROM CorpValues
 				WHERE CorpValues.[date] > '1/1/2013'
 			)
