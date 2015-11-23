@@ -15,7 +15,7 @@ SELECT
 	Goals.ID
 	,Goals.Value AS GoalValue
 	,Goals.TeamID AS TeamNum
-	,CorpValues.Name
+	,ConsolidatedResults.Name
 	,ConsolidatedResults.[CDate]
 	,ConsolidatedResults.Value
 	,ConsolidatedResults.[Priority]
