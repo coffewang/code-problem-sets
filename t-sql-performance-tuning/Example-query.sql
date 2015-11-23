@@ -16,7 +16,7 @@ SELECT
 	,Goals.Value AS GoalValue
 	,Goals.TeamID AS TeamNum
 	,CorpValues.Name
-	,ConsolidatedResults.[Date]
+	,ConsolidatedResults.[CDate]
 	,ConsolidatedResults.Value
 	,ConsolidatedResults.[Priority]
 FROM Goals
@@ -40,6 +40,7 @@ FROM Goals
 			,CorpValues.[Name]
 			,CorpValues.[Tagging]
 			,CorpValues.[Document]
+			,CorpValues.[Priority]
 			,Reference.[Structure]
 			,Reference.[Metadata]
 			,Reference.[ExtendedAttributes]
@@ -61,6 +62,7 @@ FROM Goals
 					,[GeoName] AS [Name]
 					,[TaggingID] AS [Tagging]
 					,[DocumentID] AS [Document]
+					,[Priority] AS [Priority]
 				FROM CorpValues
 				WHERE CorpValues.[date] > '1/1/2013'
 			)
