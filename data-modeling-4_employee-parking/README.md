@@ -15,6 +15,6 @@ The Ajax Company employs approximately 1000 employees that work during the day a
 
 You are hired as a consultant to develop an application that will help the Ajax Company manage employee parking assignments. The client wants to be able to track what parking spaces are assigned to employees, and where the available parking spaces are that can be assigned in the future.
 
-# Create a Conceptual Data Model that contains all of the entities needed to support the business requirements express in the above statement.
-# Create a corresponding Logical Data Model that contains all of the attributes needed to support the business requirements.  
-# Include a sample data set to demonstrate that you have validated the model.
+1. Create a Conceptual Data Model that contains all of the entities needed to support the business requirements express in the above statement.
+2. Create a corresponding Logical Data Model that contains all of the attributes needed to support the business requirements.  
+3. Include a sample data set to demonstrate that you have validated the model.
