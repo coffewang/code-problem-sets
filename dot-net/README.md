@@ -5,19 +5,19 @@
 A client who runs a Dog Sitting company has asked you to create an web-based application that connects to a SQL database of dogs and their owners to display several different views of their data. They have the following tables in the database:
 
 * Owner
-** Name
-** Address
-** Email
-** Avatar image
+    - Name
+    - Address
+    - Email
+    - Avatar image
 * Breeds
-** Title
-** Wikipedia webpage
+    - Title
+    - Wikipedia webpage
 * Dog
-** Name of dog
-** Owner (many to many relationship to Owner)
-** Breed (many to many relationship to Breed)
-** Weight
-** Profile photo
+    - Name of dog
+    - Owner (many to many relationship to Owner)
+    - Breed (many to many relationship to Breed)
+    - Weight
+    - Profile photo
 
 ## The task
 
