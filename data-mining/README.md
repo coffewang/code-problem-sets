@@ -11,7 +11,7 @@ Your client is an Italian telecommunications company who wish to enter the marke
     - Username: piraeus
     - Password: problems
 2. Select the *Milano* list of datasets
-3. Click "Download data" for the *Telecommunications - SMS, Call Internet - MI" dataset
+3. Click "Download data" link for the "Telecommunications - SMS, Call Internet - MI" dataset
     - *Note:* You have 5 minutes to initiate downloading the data (see box in top right): "These links have been generated privately for yourself, and will expire in X minutes, and XX seconds"
 4. Go to the *Resources* tab. All the monthly data is available.
 5. You can choose to use _all_ the data, or a _subset_ of the data.
