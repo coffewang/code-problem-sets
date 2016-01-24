@@ -1,3 +1,29 @@
+/*
+Based on the result set we needed, rewrite the query as below.
+1. remove Goals_extended, it's useless for current query result set.
+2. remove unneeded subquery
+3. there are some issues in the query, like,duplicate CorpValues.[Name]
+			,CorpValues.[Name]--line 34
+			,CorpValues.[Name]--line 40
+*/
+SELECT
+	Goals.ID
+	,Goals.Value AS GoalValue
+	,Goals.TeamID AS TeamNum
+	,CorpValues.GeoName as Name
+	,CorpValues.[date] as [CDate] 
+	,CorpValues.[Value]
+	,CorpValues.[Priority]
+FROM Goals
+INNER JOIN CorpValues
+ON Goals.ID = CorpValues.ID 
+WHERE Goals.[Status] <> 'Inactive'
+AND CorpValues.[date] > '1/1/2013'
+AND EXISTS(SELECT 1 FROM Reference Re WHERE Re.ID = CorpValues.ID AND Re.[Status] <> 'Inactive')
+
+
+
+
 WITH Goals_extended AS (
 	SELECT
 		ID
