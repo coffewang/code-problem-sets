@@ -11,3 +11,7 @@ There are _no limits_ on how you create your database table structures or relati
 * Products
 * Orders
 * Customers
+<Coffie>
+1.Create 5 tables(dbo.Customer,dbo.Products,dbo.SalesGroup,dbo.SalesOrder,dbo.SalesPerson) based on the outline 
+2.Create 1 view(vw_SalesReports) to show the simple results.
+</Coffie>
